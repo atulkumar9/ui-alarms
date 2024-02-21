@@ -1,0 +1,279 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.head-right {
+	display: inline-block;
+	float: right;
+	padding: 23px 28px;
+	font-size: 14px;
+}
+.head-right.user-dp{
+	width: 20px;
+}
+.head-right.user-name{
+	width: 80px;
+}
+.head-right.sign-out{
+	width: 20px;
+}
+
+.head-right.sign-out a{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.head-left li{
+	display: inline-block;
+	float: left;
+	padding: 23px 28px;
+	font-size: 14px;
+	width: 95px;
+}
+
+.head-left li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+
+html {	
+	background: url("backdrop2.jpg");
+}
+
+.margin{
+	margin-left: 59px;
+	margin-right: 54px;
+}
+
+
+
+header {
+	height: 70px;
+	background-color: white;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.container-wrapper {
+	background-color: white;
+	width: 1165px;
+	margin: 0 auto;
+}
+.sensors .txt-aft-but {
+	float: right;
+	margin-top: 31px;
+	margin-bottom: 15px;
+	margin-right: 123px;
+}
+
+.sensors {
+	background: url("backdrop9.png");
+	border: 1px solid grey;
+}
+
+.sensor-body{
+	display: inline-block;
+}
+
+.bar {
+	width: 79%;
+	background: #6CB4CD;
+	display: block;
+	height: 49px;
+	margin-left: 121px;
+	margin-right: 121px;
+	margin-top: 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-width: 2px;
+}
+
+.bar2 {
+	width: 78.825%;
+	background: white;
+	display: block;
+	height: 47px;
+	margin-left: 121px;
+	margin-right: 121px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+.sensor-ele {
+	display: inline-block;
+	height: 226px;
+	width: 452px;
+	margin-top: 13px;
+	margin-bottom: 18px;
+	margin-left: 118px;
+	margin-right: -101px;
+	border: 1px  #eeeeee;
+	border-radius: 4px;
+	background: white;
+	box-shadow: 2px 2px 2px 2px #eeeeee;
+	float: left;
+}
+
+.sensor-ele-head {
+	margin: 19px 183px;
+	width: 100%;
+}
+
+.sensor-ele-reading {
+	display: block;
+	height: 115px;
+	width: 115px;
+	background: #94d7f4;
+	margin-left: 43px;
+	margin-top: 7px;
+	margin-bottom: 3px;
+	box-shadow: 2px 2px #65cbf7;
+	border-radius: 100%;
+}
+
+.sensor-ele-reading-per {
+	padding: 50px 43px;
+	color: white;
+} 
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.sensor-ele-reading-txt {
+	padding: 7px 32px;
+}
+
+.sensor-ele-status{
+	float: left;
+	display: block;
+	color: white;
+	background: #6ab24f;
+	height: 80px;
+	width: 90px;
+	border-radius: 5px;
+	margin: -117px 212px;
+}
+
+.sensor-ele-status-txt1 {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sensor-ele-status-txt2 {
+	margin: 7px 7px;
+	background: white;
+	color: #6ab24f;
+	height: 25px;
+	width: 72%;
+	padding-left: 11px;
+	padding-top: 5px;
+	border-radius: 3px;
+
+}
+
+.sensor-ele-port{
+	float: left;
+	display: block;
+	color: white;
+	background: #f8f8f8;
+	height: 80px;
+	width: 89px;
+	border-radius: 5px;
+	margin: -117px 331px;
+	border: #e1e0e0 solid 1px;
+}
+
+.sensor-ele-port-text {
+	margin: 24px;
+	color: grey;
+	width: 100%;
+}
+
+#ft {
+	font-size: 12px;
+}
+
+#st {
+	font-size: 24px;
+}
+
+.sensor-ele-x {
+	margin: -183px 418px;
+}
+
+.sensor-ele-la {
+	margin: -8px 264px;
+	width: 27%;
+}
+
+.sensor-ele-la-1 {
+	margin-left: 12px;
+}
+
+.sensor-ele-la-2 {
+	margin-left: 6px;
+}
+
+.sensors .sas-button {
+	background: #6fb2cf;
+	border-radius: 5px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 28px;
+	margin-right: 4px;
+	height: 38px;
+	width: 133px;
+}
+
+.sensors .vaa-button{
+	background: #f1592a;	
+	padding: 12px 20px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 270px;
+	height: 39px;
+	width: 138px;
+}
+.bar .bar-ele {
+	background: #6CB4CD;
+	color: white;
+	width: 124px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	margin-left: 45px;
+	margin-right: -26px;
+	margin-top: 21px;
+}
+
+.bar2 .bar2-ele {
+	background: white;
+	color: grey;
+	width: 132px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	padding: 20px, 5px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 15px;
+}
+footer {
+	text-align: center;
+	margin-top: 20%;
+}

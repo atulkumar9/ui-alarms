@@ -1,0 +1,436 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+}
+
+.margin {
+	margin: 0 121px;
+}
+
+.float-left {
+	float: left;
+}
+
+.font-size-14{
+	font-size: 14px;
+}
+
+.float-right{
+	float: right;
+}
+.expand-all-switch-wrapper{
+	padding: 20px 5px;
+}
+
+.expand-all-switch-wrapper a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.float-right {
+	float: right;
+}
+.head-wrapper {
+	margin: 0 121px;
+}
+.head-right {
+	display: inline-block;
+	float: right;
+	padding: 27px 0px 13px 34px;
+	font-size: 14px;
+}
+
+.head-right.user-dp{
+	width: 20px;
+	
+}
+.head-right.user-name{
+	width: 80px;
+}
+.head-right.sign-out{
+	width: 20px;
+}
+
+.head-right.sign-out a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.head-right.user-name a {
+	color: #000000;
+	text-decoration: none;
+}
+.switch-tdmp.switch-to-device-mp-text a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.head-left li{
+	display: inline-block;
+	float: left;
+	padding: 27px 42px 23px 0px;
+	font-size: 14px;
+	width: 95px;
+}
+
+.head-left li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.float-left li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+html {	
+	background: url("backdrop2.jpg");
+}
+
+
+header {
+	height: 70px;
+	background-color: white;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.container-wrapper {
+	background-color: white;
+	width: 1164px;
+	margin: 0 auto;
+}
+.sensors .txt-aft-but {
+	float: right;
+	padding: 16px 6px;
+}
+
+.sensors {
+	background: url("backdrop9.png");
+	border: 1px solid grey;
+	position: relative;
+	margin: 0px -121px;
+
+}
+
+.sensors-inner-elements {
+	margin: 0px 117px;
+}
+
+.sensor-body{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.table-wrapper{
+	margin: 0px 121px;
+}
+
+.bar {
+	background: #6CB4CD;
+	height: 49px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-width: 2px;
+}
+
+.bar2 {
+	height: 45px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+.sensor-ele {
+	display: inline-block;
+	height: 226px;
+	width: 452px;
+	border: 1px  #eeeeee;
+	border-radius: 4px;
+	background: white;
+	box-shadow: 1px 1px 1px 1px #eeeeee;
+	margin: 6px 5px 26px 5px;
+
+}
+
+.sensor-ele-head {
+	padding: 19px 20px 0px 0px;
+}
+.row {
+	width: 100%;
+	display: inline-block;
+}
+
+.sensor-ele-col2{
+	width: 56%;
+	display: inline-block;
+	vertical-align: top;
+}
+.sensor-ele-col1{
+	width: 41%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 19px 0px 0px 0px;
+}
+
+.sensor-ele-reading {
+	display: inline-block;
+	height: 115px;
+	width: 115px;
+	background: #94d7f4;
+	box-shadow: 2px 2px #65cbf7;
+	border-radius: 100%;
+}
+
+.sensor-ele-reading-per {
+	padding: 50px 43px;
+	color: white;
+} 
+
+.sensor-ele-reading-txt {
+	padding: 7px 32px;
+}
+
+.sensor-ele-status{
+	display: inline-block;
+	color: white;
+	background: #6ab24f;
+	height: 80px;
+	width: 90px;
+	border-radius: 5px;
+}
+
+.sensor-ele-status-txt1 {
+	padding:18px 18px 3px 18px;
+}
+
+.sensor-ele-status-txt2 {
+	margin: 7px 7px;
+	background: white;
+	color: #6ab24f;
+	height: 25px;
+	width: 72%;
+	padding: 6px 1px 0px 8px;
+	border-radius: 3px;
+
+}
+
+.sensor-ele-port{
+	display: inline-block;
+	color: white;
+	background: #f8f8f8;
+	height: 80px;
+	width: 89px;
+	border-radius: 5px;
+	border: #e1e0e0 solid 1px;
+}
+
+.rel-class{
+	position: relative;
+}
+.sensor-ele-port-text {
+	color: grey;
+	width: 100%;
+	padding: 26px 0px 0px 4px;
+}
+
+.ft {
+	font-size: 14px;
+}
+
+.st {
+	font-size: 24px;
+}
+
+.sensor-ele-x {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.sensor-ele-la {
+	width: 100%;
+	padding: 27px 0px 0px 0px;
+}
+
+.sensors .sas-button {
+	background: #6fb2cf;
+	border-radius: 5px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 28px;
+	margin-right: 4px;
+	height: 38px;
+	width: 133px;
+}
+.sensors .button-text-container {
+	padding: 15px 0px;
+	position: relative;
+}
+
+.sensors .vaa-button{
+	background: #f1592a;	
+	border-radius: 5px;
+	color: white;
+	height: 39px;
+	width: 134px;
+	position: absolute;
+	top: 22px;
+	left: 396px;
+}
+.bar .bar-ele {
+	background: #6CB4CD;
+	color: white;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	padding: 0 46px;
+	margin-top: 21px;
+}
+
+.bar-ele.be-status {
+	width: 81px;
+}
+
+
+.bar.be-Device {
+	width: 150px;
+}
+
+.bar.be-Name {
+	width: 113px;
+}
+
+.bar.be-Mon-Int {
+	width: 153px;
+}
+.bar2 .bar2-ele {
+	background: white;
+	color: grey;
+	width: 13px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	padding: 15px 10px;
+}
+
+.bar2-ele .be2-open-arrow {
+	color: #f26a40;
+	width: 16px;
+}
+
+.bar2-ele.be2-alarm{
+	width: 89px;
+}
+.bar2-ele.be2-dev-num{
+	width: 159px;
+}
+.bar2-ele.be2-desk{
+	width: 122px;
+}
+.bar2-ele.be2-minutes{
+	width: 162px;
+}
+.bar2-ele.be2-dt{
+	width: 195px;
+}
+.bar2-ele.be2-x{
+	width:20px;
+}
+
+.sensor-body:last-child{
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20%;
+}
+
+
+.center {
+	text-align: center;
+	display: block;
+}
+
+.col-42 {
+	width: 42%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 21px 10px 0px 0px;
+}
+
+.be2-open-arrow.be2-closed-arrow{
+  transform: rotate(90deg);
+  transition: transform 0.1s linear;
+}
+
+

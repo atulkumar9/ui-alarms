@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Alarm Status</title>
+    <link rel="stylesheet" href="fontawesome-free-5.2.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  
+  <body >
+
+    <div class="container-wrapper">
+
+      <header>
+
+        <div class="head-wrapper clearfix ">
+
+          <ul class = "head-left">
+            <li>
+              <a href = "#">
+                <i class="fas fa-laptop"></i> DEVICES
+              </a>
+            </li>
+
+            <li>
+              <a href = "#">
+                <i class="fas fa-laptop"></i> INCIDENTS
+              </a>
+            </li>
+
+            <li>
+              <a href = "#">
+                <i class="fas fa-laptop"></i> REPORTS
+              </a>
+            </li>
+
+            <li>
+              <a href = "#">
+                <i class="fas fa-laptop"></i> USERS
+              </a>
+            </li>
+          </ul>
+          <div class="clearfix">
+            <div class = "head-right sign-out">
+              <a href = "#"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+            <div class = "head-right user-name">
+              <a href = "#"> Bill Murray </a>
+              <a href = "#"><i class="fas fa-caret-down"></i></a>
+            </div>
+            <div class = "head-right user-dp">
+              <a href = "#"><img src = "user.jpg" height = "25" width = "25"></a>
+            </div>
+          </div>
+        </div>
+
+      </header>
+      
+
+      <div class = table-wrapper>
+        <div class = "expand-all-switch-wrapper clearfix font-size-14">
+          <a href = "#" class = "float-left"> Expand All </a>
+          <a href = "#" class = "float-right"> Switch to Device Map </a>
+        </div>
+        <div class="bar clearfix ">
+          <div class="bar-ele be-status">
+            <i class="fas fa-sort"></i>
+            <a> Status </a>
+          </div>
+          <div class="bar-ele be-Device" >
+            <i class="fas fa-sort"></i>
+            <a> Device </a>
+          </div>
+          <div class="bar-ele be-Name" >
+            <i class="fas fa-sort"></i>
+            <a> Name </a>
+          </div>
+          <div class="bar-ele be-Mon-Int">
+            <i class="fas fa-sort"></i>
+            <a> Monitoring Interval </a>
+          </div>
+          <div class="bar-ele">
+            <i class="fas fa-sort-up"></i>
+            <a> Last Activity </a>
+          </div>
+        </div>
+        <div class="bar2 clearfix js-open-close-bar">
+          <div class="bar2-ele be2-open-arrow">
+            <a href="#" style="color: #f26a40;"><i class="fas fa-chevron-circle-right"></i></a>
+          </div>
+          <div class="bar2-ele be2-alarm">
+            <a> Alarm </a>
+          </div>
+          <div class="bar2-ele be2-dev-num">
+            <a> 890156874568789874 </a>
+          </div>
+          <div class="bar2-ele be2-desk"> 
+            <a> On Harry's Desk </a>
+          </div>
+          <div class="bar2-ele be2-minutes">
+            <a> 4 Minutes </a>
+          </div>
+          <div class="bar2-ele be2-dt">
+            <a class="be2-date"> 2013-10-31 </a>
+            <a class="be2-time"> 12:15 PM </a>
+          </div>
+          <div class="bar2-ele be2-x">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+
+        <div class="bar2 clearfix js-open-close-bar">
+          <div class="bar2-ele be2-open-arrow">
+            <a href="#" style="color: #f26a40;"><i class="fas fa-chevron-circle-right"></i></a>
+          </div>
+          <div class="bar2-ele be2-alarm">
+            <a> Alarm </a>
+          </div>
+          <div class="bar2-ele be2-dev-num">
+            <a> 890156874568789874 </a>
+          </div>
+          <div class="bar2-ele be2-desk"> 
+            <a> On Harry's Desk </a>
+          </div>
+          <div class="bar2-ele be2-minutes">
+            <a> 4 Minutes </a>
+          </div>
+          <div class="bar2-ele be2-dt">
+            <a class="be2-date"> 2013-10-31 </a>
+            <a class="be2-time"> 12:15 PM </a>
+          </div>
+          <div class="bar2-ele be2-x">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+
+
+        <div class="sensors">
+          <div class= "sensors-inner-elements">
+            <div class="button-text-container">
+              <div align="center" class="clearfix">
+                <button class="vaa-button"> View all Alarms(1) </button>
+                <a class="txt-aft-but"> 4 of 4 sensors showing </a>
+              </div>
+            </div>
+            <div class="sensor-body clearfix">
+
+
+              <div id = "ele1" class="sensor-ele rel-class">
+                <div class="row"> 
+                  <div class="sensor-ele-head">
+                    <strong> New Sensor </strong>
+                  </div>
+                </div>
+                <div class="row height-165">
+                  <div class="sensor-ele-col1">
+                    <div class = "sensor-ele-reading">
+                      <div class = "sensor-ele-reading-per">
+                        <a> 50.01 </a>
+                      </div>
+                      <div class = "sensor-ele-reading-txt">
+                        <a> Reading </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "sensor-ele-col2 clearfix">
+                    <div class="row">
+                      <div class="col-42">
+                        <div class = "sensor-ele-status">
+                          <div class = "sensor-ele-status-txt1">
+                            <a> Status </a>
+                          </div>
+                          <div class = "sensor-ele-status-txt2">
+                            <a> Normal </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-42">
+                        <div class = "sensor-ele-port">
+                          <div class = "sensor-ele-port-text">
+                            <p class="ft">Port #<span class="st">1 </span> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="sensor-ele-la">
+                        <div class = center>
+                          <a>Last Activity</a>
+                        </div>
+                        <div class = "center">
+                          <h6>2013-10-31  12:15 PM</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sensor-ele-x">
+                    <button onclick="myFunction('ele1')"> 
+                      <i class="fas fa-times-circle"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div id = "ele1" class="sensor-ele rel-class">
+                <div class="row"> 
+                  <div class="sensor-ele-head">
+                    <strong> New Sensor </strong>
+                  </div>
+                </div>
+                <div class="row height-165">
+                  <div class="sensor-ele-col1">
+                    <div class = "sensor-ele-reading">
+                      <div class = "sensor-ele-reading-per">
+                        <a> 50.01 </a>
+                      </div>
+                      <div class = "sensor-ele-reading-txt">
+                        <a> Reading </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "sensor-ele-col2 clearfix">
+                    <div class="row">
+                      <div class="col-42">
+                        <div class = "sensor-ele-status">
+                          <div class = "sensor-ele-status-txt1">
+                            <a> Status </a>
+                          </div>
+                          <div class = "sensor-ele-status-txt2">
+                            <a> Normal </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-42">
+                        <div class = "sensor-ele-port">
+                          <div class = "sensor-ele-port-text">
+                            <p class="ft">Port #<span class="st">2 </span> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="sensor-ele-la">
+                        <div class = center>
+                          <a>Last Activity</a>
+                        </div>
+                        <div class = "center">
+                          <h6>2013-10-31  12:15 PM</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sensor-ele-x">
+                    <button onclick="myFunction('ele1')"> 
+                      <i class="fas fa-times-circle"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            <div id = "ele1" class="sensor-ele rel-class">
+                <div class="row"> 
+                  <div class="sensor-ele-head">
+                    <strong> New Sensor </strong>
+                  </div>
+                </div>
+                <div class="row height-165">
+                  <div class="sensor-ele-col1">
+                    <div class = "sensor-ele-reading" style="background: #f7941d">
+                      <div class = "sensor-ele-reading-per">
+                        <a> 50.01 </a>
+                      </div>
+                      <div class = "sensor-ele-reading-txt">
+                        <a> Reading </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "sensor-ele-col2 clearfix">
+                    <div class="row">
+                      <div class="col-42">
+                        <div class = "sensor-ele-status" style="background:#f1592a">
+                          <div class = "sensor-ele-status-txt1">
+                            <a> Status </a>
+                          </div>
+                          <div class = "sensor-ele-status-txt2" style="color:#f1592a">
+                            <a> Normal </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-42">
+                        <div class = "sensor-ele-port">
+                          <div class = "sensor-ele-port-text">
+                            <p class="ft">Port #<span class="st">3 </span> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="sensor-ele-la">
+                        <div class = center>
+                          <a>Last Activity</a>
+                        </div>
+                        <div class = "center">
+                          <h6>2013-10-31  12:15 PM</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sensor-ele-x">
+                    <button onclick="myFunction('ele1')"> 
+                      <i class="fas fa-times-circle"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+              <div id = "ele1" class="sensor-ele rel-class">
+                <div class="row"> 
+                  <div class="sensor-ele-head">
+                    <strong> New Sensor </strong>
+                  </div>
+                </div>
+                <div class="row height-165">
+                  <div class="sensor-ele-col1">
+                    <div class = "sensor-ele-reading">
+                      <div class = "sensor-ele-reading-per">
+                        <a> 50.01 </a>
+                      </div>
+                      <div class = "sensor-ele-reading-txt">
+                        <a> Reading </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "sensor-ele-col2 clearfix">
+                    <div class="row">
+                      <div class="col-42">
+                        <div class = "sensor-ele-status">
+                          <div class = "sensor-ele-status-txt1">
+                            <a> Status </a>
+                          </div>
+                          <div class = "sensor-ele-status-txt2">
+                            <a> Normal </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-42">
+                        <div class = "sensor-ele-port">
+                          <div class = "sensor-ele-port-text">
+                            <p class="ft">Port #<span class="st">4 </span> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="sensor-ele-la">
+                        <div class = center>
+                          <a>Last Activity</a>
+                        </div>
+                        <div class = "center">
+                          <h6>2013-10-31  12:15 PM</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sensor-ele-x">
+                    <button onclick="myFunction('ele1')"> 
+                      <i class="fas fa-times-circle"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+            
+            </div>
+            
+            <div>
+              <div align="center">
+                <button class="sas-button"> Show all Sensors </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        
+        <div class="bar2 clearfix js-open-close-bar">
+          <div class="bar2-ele be2-open-arrow">
+            <a href="#" style="color: #f26a40;"><i class="fas fa-chevron-circle-right"></i></a>
+          </div>
+          <div class="bar2-ele be2-alarm">
+            <a> Alarm </a>
+          </div>
+          <div class="bar2-ele be2-dev-num">
+            <a> 890156874568789874 </a>
+          </div>
+          <div class="bar2-ele be2-desk"> 
+            <a> On Harry's Desk </a>
+          </div>
+          <div class="bar2-ele be2-minutes">
+            <a> 4 Minutes </a>
+          </div>
+          <div class="bar2-ele be2-dt">
+            <a class="be2-date"> 2013-10-31 </a>
+            <a class="be2-time"> 12:15 PM </a>
+          </div>
+          <div class="bar2-ele be2-x">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+
+
+        <div class="bar2 clearfix js-open-close-bar">
+          <div class="bar2-ele be2-open-arrow">
+            <a href="#" style="color: #f26a40;"><i class="fas fa-chevron-circle-right"></i></a>
+          </div>
+          <div class="bar2-ele be2-alarm">
+            <a> Alarm </a>
+          </div>
+          <div class="bar2-ele be2-dev-num">
+            <a> 890156874568789874 </a>
+          </div>
+          <div class="bar2-ele be2-desk"> 
+            <a> On Harry's Desk </a>
+          </div>
+          <div class="bar2-ele be2-minutes">
+            <a> 4 Minutes </a>
+          </div>
+          <div class="bar2-ele be2-dt">
+            <a class="be2-date"> 2013-10-31 </a>
+            <a class="be2-time"> 12:15 PM </a>
+          </div>
+          <div class="bar2-ele be2-x">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+
+        <div class="bar2 clearfix js-open-close-bar">
+          <div class="bar2-ele be2-open-arrow">
+            <a href="#" style="color: #f26a40;"><i class="fas fa-chevron-circle-right"></i></a>
+          </div>
+          <div class="bar2-ele be2-alarm">
+            <a> Alarm </a>
+          </div>
+          <div class="bar2-ele be2-dev-num">
+            <a> 890156874568789874 </a>
+          </div>
+          <div class="bar2-ele be2-desk"> 
+            <a> On Harry's Desk </a>
+          </div>
+          <div class="bar2-ele be2-minutes">
+            <a> 4 Minutes </a>
+          </div>
+          <div class="bar2-ele be2-dt">
+            <a class="be2-date"> 2013-10-31 </a>
+            <a class="be2-time"> 12:15 PM </a>
+          </div>
+          <div class="bar2-ele be2-x">
+            <i class="fas fa-times-circle"></i>
+          </div>
+        </div>
+
+      </div>
+      
+
+
+
+
+      <footer>
+        <p> Copyright © 2013 DesignCrowd. Use of this website constitutes acceptance of our User Agreement and Privacy Policy. </p>
+      </footer>
+
+    </div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assignment3.js"></script>
+    
+    
+  </body>
+  
+
+</html>
